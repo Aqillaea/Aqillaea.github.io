@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Advance Filterable Image Gallery Tutorial</title>
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<div id="side-menu" class="fas fa-bars"></div>   
+
+<div class="side-bar">
+   <h1 class="heading">MY Universe</h1>
+   <div class="box">
+      <h3 class="title">search image :</h3>
+      <input type="text" placeholder="search image..." id="search-box">
+   </div>
+   <div class="box">
+      <h3 class="title">category :</h3>
+      <div class="category">
+         <div class="btn active" data-category="all"> all </div>
+         <div class="btn" data-category="NCT 127">Nct 127</div>
+         <div class="btn" data-category="NCT DREAM">Nct dream</div>
+         <div class="btn" data-category="WAYV">WayV</div>
+         <div class="btn" data-category="NCT U">Nct u</div>
+      </div>
+   </div>
+   <div class="box">
+      <h3 class="title">type :</h3>
+      <div class="type">
+         <div class="btn active" data-type="all">all type</div>
+         <div class="btn" data-type="jpg">jpg</div>
+         <div class="btn" data-type="png">png</div>
+         <div class="btn" data-type="svg">svg</div>
+      </div>
+   </div>
+   <div class="reset-btn"><div class="btn">reset all</div></div>
+</div>
+
+<div class="gallery">
+
+   <h1 class="heading">image gallery</h1>
+
+   <div class="image-container">
+      <img src="images/img-1.jpg" data-cat="WAYV" data-search="WAYV" alt="">
+      <img src="images/img-2.jpg" data-cat="WAYV" data-search="WAYV" alt="">
+      <img src="images/img-3.jpg" data-cat="WAYV" data-search="WAYV" alt="">
+      <img src="images/img-5.jpg" data-cat="WAYV" data-search="WAYV" alt="">
+      <img src="images/img-8.jpg" data-cat="WAYV" data-search="WAYV" alt="">
+      <img src="images/img-7.jpg" data-cat="WAYV" data-search="WAYV" alt="">
+      <img src="images/img-6.jpg" data-cat="WAYV" data-search="WAYV" alt="">
+      <img src="images/img-4.jpg" data-cat="WAYV" data-search="WAYV" alt="">
+      <img src="images/img-67.jpg" data-cat="WAYV" data-search="WAYV" alt="">
+      <img src="images/img-68.jpg" data-cat="WAYV" data-search="WAYV" alt="">
+      <img src="images/img-70.jpg" data-cat="WAYV" data-search="WAYV" alt="">
+      <img src="images/img-71.jpg" data-cat="WAYV" data-search="WAYV" alt="">
+      <img src="images/img-72.jpg" data-cat="WAYV" data-search="WAYV" alt="">
+      <img src="images/img-73.jpg" data-cat="WAYV" data-search="WAYV" alt="">
+      <img src="images/img-74.jpg" data-cat="WAYV" data-search="WAYV" alt="">
+      <img src="images/img-69.jpg" data-cat="WAYV" data-search="WAYV" alt="">
+      <img src="images/img-75.jpg" data-cat="WAYV" data-search="WAYV" alt="">
+      <img src="images/img-76.jpg" data-cat="WAYV" data-search="WAYV" alt="">
+      <img src="images/img-21.jpg" data-cat="NCT 127" data-search="NCT 127" alt="">
+      <img src="images/img-23.jpg" data-cat="NCT 127" data-search="NCT 127" alt="">
+      <img src="images/img-22.jpg" data-cat="NCT 127" data-search="NCT 127" alt="">
+      <img src="images/img-18.jpg" data-cat="NCT 127" data-search="NCT 127" alt="">
+      <img src="images/img-10.jpg" data-cat="NCT 127" data-search="NCT 127" alt="">
+      <img src="images/img-10.jpg" data-cat="NCT 127" data-search="NCT 127" alt="">
+      <img src="images/img-12.jpg" data-cat="NCT 127" data-search="NCT 127" alt="">
+      <img src="images/img-11.jpg" data-cat="NCT 127" data-search="NCT 127" alt="">
+      <img src="images/img-60.jpg" data-cat="NCT 127" data-search="NCT 127" alt="">
+      <img src="images/img-61.jpg" data-cat="NCT 127" data-search="NCT 127" alt="">
+      <img src="images/img-62.jpg" data-cat="NCT 127" data-search="NCT 127" alt="">
+      <img src="images/img-63.jpg" data-cat="NCT 127" data-search="NCT 127" alt="">
+      <img src="images/img-64.jpg" data-cat="NCT 127" data-search="NCT 127" alt="">
+      <img src="images/img-65.jpg" data-cat="NCT 127" data-search="NCT 127" alt="">
+      <img src="images/img-66.jpg" data-cat="NCT 127" data-search="NCT 127" alt="">
+      <img src="images/img-19.jpg" data-cat="NCT DREAM" data-search="NCT DREAM" alt="">
+      <img src="images/img-20.jpg" data-cat="NCT DREAM" data-search="NCT DREAM" alt="">
+      <img src="images/img-14.jpg" data-cat="NCT DREAM" data-search="NCT DREAM" alt="">
+      <img src="images/img-16.jpg" data-cat="NCT DREAM" data-search="NCT DREAM" alt="">
+      <img src="images/img-17.jpg" data-cat="NCT DREAM" data-search="NCT DREAM" alt="">
+      <img src="images/img-26.jpg" data-cat="NCT DREAM" data-search="NCT DREAM" alt="">
+      <img src="images/img-13.jpg" data-cat="NCT DREAM" data-search="NCT DREAM" alt="">
+      <img src="images/img-50.jpg" data-cat="NCT DREAM" data-search="NCT DREAM" alt="">
+      <img src="images/img-51.jpg" data-cat="NCT DREAM" data-search="NCT DREAM" alt="">
+      <img src="images/img-52.jpg" data-cat="NCT DREAM" data-search="NCT DREAM" alt="">
+      <img src="images/img-58.jpg" data-cat="NCT DREAM" data-search="NCT DREAM" alt="">
+      <img src="images/img-59.jpg" data-cat="NCT DREAM" data-search="NCT DREAM" alt="">
+      <img src="images/img-53.jpg" data-cat="NCT DREAM" data-search="NCT DREAM" alt="">
+      <img src="images/img-54.jpg" data-cat="NCT DREAM" data-search="NCT DREAM" alt="">
+      <img src="images/img-55.jpg" data-cat="NCT DREAM" data-search="NCT DREAM" alt="">
+      <img src="images/img-56.jpg" data-cat="NCT DREAM" data-search="NCT DREAM" alt="">
+      <img src="images/img-57.jpg" data-cat="NCT DREAM" data-search="NCT DREAM" alt="">
+      <img src="images/img-27.jpg" data-cat="NCT U" data-search="TAEYONG" alt="">
+      <img src="images/img-83.jpg" data-cat="NCT U" data-search="TAEYONG" alt="">
+      <img src="images/img-84.jpg" data-cat="NCT U" data-search="TAEYONG" alt="">
+      <img src="images/img-85.jpg" data-cat="NCT U" data-search="TAEYONG" alt="">
+      <img src="images/img-86.jpg" data-cat="NCT U" data-search="TAEYONG" alt="">
+      <img src="images/img-87.jpg" data-cat="NCT U" data-search="TAEYONG" alt="">
+      <img src="images/img-88.jpg" data-cat="NCT U" data-search="TAEYONG" alt="">
+      <img src="images/img-28.jpg" data-cat="NCT U" data-search="TAEIL" alt="">
+      <img src="images/img-89.jpg" data-cat="NCT U" data-search="TAEIL" alt="">
+      <img src="images/img-90.jpg" data-cat="NCT U" data-search="TAEIL" alt="">
+      <img src="images/img-91.jpg" data-cat="NCT U" data-search="TAEIL" alt="">
+      <img src="images/img-92.jpg" data-cat="NCT U" data-search="TAEIL" alt="">
+      <img src="images/img-93.jpg" data-cat="NCT U" data-search="TAEIL" alt="">
+      <img src="images/img-94.jpg" data-cat="NCT U" data-search="TAEIL" alt="">
+      <img src="images/img-29.jpg" data-cat="NCT U" data-search="JOHNNY" alt="">
+      <img src="images/img-95.jpg" data-cat="NCT U" data-search="JOHNNY" alt="">
+      <img src="images/img-96.jpg" data-cat="NCT U" data-search="JOHNNY" alt="">
+      <img src="images/img-97.jpg" data-cat="NCT U" data-search="JOHNNY" alt="">
+      <img src="images/img-98.jpg" data-cat="NCT U" data-search="JOHNNY" alt="">
+      <img src="images/img-99.jpg" data-cat="NCT U" data-search="JOHNNY" alt="">
+      <img src="images/img-100.jpg" data-cat="NCT U" data-search="JOHNNY" alt="">
+      <img src="images/img-30.jpg" data-cat="NCT U" data-search="YUTA" alt="">
+      <img src="images/img-31.jpg" data-cat="NCT U" data-search="KUN" alt="">
+      <img src="images/img-32.jpg" data-cat="NCT U" data-search="DOYOUNG" alt="">
+      <img src="images/img-33.jpg" data-cat="NCT U" data-search="TEN" alt="">
+      <img src="images/img-34.jpg" data-cat="NCT U" data-search="JAEHYUN" alt="">
+      <img src="images/img-101.jpg" data-cat="NCT U" data-search="JAEHYUN" alt="">
+      <img src="images/img-102.jpg" data-cat="NCT U" data-search="JAEHYUN" alt="">
+      <img src="images/img-103.jpg" data-cat="NCT U" data-search="JAEHYUN" alt="">
+      <img src="images/img-104.jpg" data-cat="NCT U" data-search="JAEHYUN" alt="">
+      <img src="images/img-105.jpg" data-cat="NCT U" data-search="JAEHYUN" alt="">
+      <img src="images/img-106.jpg" data-cat="NCT U" data-search="JAEHYUN" alt="">
+      <img src="images/img-35.jpg" data-cat="NCT U" data-search="WIN WIN" alt="">
+      <img src="images/img-36.jpg" data-cat="NCT U" data-search="JUNGWOO" alt="">
+      <img src="images/Img-37.jpg" data-cat="NCT U" data-search="LUCAS" alt="">
+      <img src="images/img-38.jpg" data-cat="NCT U" data-search="MARK" alt="">
+      <img src="images/img-39.jpg" data-cat="NCT U" data-search="XIAONJUN" alt="">
+      <img src="images/img-40.jpg" data-cat="NCT U" data-search="HENDERY" alt="">
+      <img src="images/img-41.jpg" data-cat="NCT U" data-search="RENJUN" alt="">
+      <img src="images/img-77.jpg" data-cat="NCT U" data-search="RENJUN" alt="">
+      <img src="images/img-78.jpg" data-cat="NCT U" data-search="RENJUN" alt="">
+      <img src="images/img-79.jpg" data-cat="NCT U" data-search="RENJUN" alt="">
+      <img src="images/img-80.jpg" data-cat="NCT U" data-search="RENJUN" alt="">
+      <img src="images/img-81.jpg" data-cat="NCT U" data-search="RENJUN" alt="">
+      <img src="images/img-82.jpg" data-cat="NCT U" data-search="RENJUN" alt="">
+      <img src="images/img-42.jpg" data-cat="NCT U" data-search="JENO" alt="">
+      <img src="images/img-107.jpg" data-cat="NCT U" data-search="JENO" alt="">
+      <img src="images/img-108.jpg" data-cat="NCT U" data-search="JENO" alt="">
+      <img src="images/img-109.jpg" data-cat="NCT U" data-search="JENO" alt="">
+      <img src="images/img-110.jpg" data-cat="NCT U" data-search="JENO" alt="">
+      <img src="images/img-112.jpg" data-cat="NCT U" data-search="JENO" alt="">
+      <img src="images/img-111.jpg" data-cat="NCT U" data-search="JENO" alt="">
+      <img src="images/img-43.jpg" data-cat="NCT U" data-search="HAECHAN" alt="">
+      <img src="images/img-44.jpg" data-cat="NCT U" data-search="JAEMIN" alt="">
+      <img src="images/img-113.jpg" data-cat="NCT U" data-search="JAEMIN" alt="">
+      <img src="images/img-114.jpg" data-cat="NCT U" data-search="JAEMIN" alt="">
+      <img src="images/img-115.jpg" data-cat="NCT U" data-search="JAEMIN" alt="">
+      <img src="images/img-116.jpg" data-cat="NCT U" data-search="JAEMIN" alt="">
+      <img src="images/img-117.jpg" data-cat="NCT U" data-search="JAEMIN" alt="">
+      <img src="images/img-118.jpg" data-cat="NCT U" data-search="JAEMIN" alt="">
+      <img src="images/img-45.jpg" data-cat="NCT U" data-search="YANG YANG" alt="">
+      <img src="images/img-46.jpg" data-cat="NCT U" data-search="SHOTAROO" alt="">
+      <img src="images/img-47.jpg" data-cat="NCT U" data-search="SUNGCHAN" alt="">
+      <img src="images/img-48.jpg" data-cat="NCT U" data-search="CHENLE" alt="">
+      <img src="images/img-49.jpg" data-cat="NCT U" data-search="JISUNG" alt="">
+      <img src="images/img-119.jpg" data-cat="NCT U" data-search="JISUNG" alt="">
+      <img src="images/img-120.jpg" data-cat="NCT U" data-search="JISUNG" alt="">
+      <img src="images/img-121.jpg" data-cat="NCT U" data-search="JISUNG" alt="">
+      <img src="images/img-122.jpg" data-cat="NCT U" data-search="JISUNG" alt="">
+      <img src="images/img-123.jpg" data-cat="NCT U" data-search="JISUNG" alt="">
+      <img src="images/img-124.jpg" data-cat="NCT U" data-search="JISUNG" alt="">
+   </div>
+
+</div>
+
+<div class="image-popup">
+   <img src="" alt="">
+</div>
+
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
